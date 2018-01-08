@@ -10,6 +10,7 @@ namespace Homework1.Contexts
 {
     public class HomeworkContext : DbContext
     {
+        public HomeworkContext() : base("HomeworkContext") { }
         public DbSet<Student> Students { get; set; }
     }
 }
