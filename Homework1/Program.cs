@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Homework1.Contexts;
 using Homework1.Models;
-using Homework1.DAL;
+using static Homework1.DAL.HomeworkDAL;
 
 namespace Homework1
 {
@@ -13,7 +13,14 @@ namespace Homework1
     {
         static void Main(string[] args)
         {
-            HomeworkDAL.StudentDAL.printStudents(HomeworkDAL.StudentDAL.getAllStudents());
+            var name = "Jiang Gaohua";
+            var stus = StudentDAL.getStudents(name);
+            if (stus.Count == 0)
+            {
+                StudentDAL.addStudent(name, 20, Sex.Male);
+            }
+
+            StudentDAL.printStudents(StudentDAL.getAllStudents());
             Console.Read();
         }
     }
