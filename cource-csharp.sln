@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework3_WebApplication", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework3_WcfServiceLibrary", "Homework3_WcfServiceLibrary\Homework3_WcfServiceLibrary.csproj", "{D1FA0A9E-FD10-4743-AD75-21F014F9BAE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework3_WebAPI", "Homework3_WebAPI\Homework3_WebAPI.csproj", "{8A80EA4D-D52D-4865-A109-E84A4D14305D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D1FA0A9E-FD10-4743-AD75-21F014F9BAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1FA0A9E-FD10-4743-AD75-21F014F9BAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1FA0A9E-FD10-4743-AD75-21F014F9BAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A80EA4D-D52D-4865-A109-E84A4D14305D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A80EA4D-D52D-4865-A109-E84A4D14305D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A80EA4D-D52D-4865-A109-E84A4D14305D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A80EA4D-D52D-4865-A109-E84A4D14305D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
