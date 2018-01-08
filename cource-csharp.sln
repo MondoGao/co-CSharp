@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cource-csharp", "cource-csharp\cource-csharp.csproj", "{1710DF59-814A-455E-8F04-FA4767C2C2E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework1", "Homework1\Homework1.csproj", "{F79575AE-82E8-4369-A894-F824CC7886C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework2", "Homework2\Homework2.csproj", "{347BE0F1-2298-4C17-9F8D-6A9EC3DFF8DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1710DF59-814A-455E-8F04-FA4767C2C2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1710DF59-814A-455E-8F04-FA4767C2C2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1710DF59-814A-455E-8F04-FA4767C2C2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1710DF59-814A-455E-8F04-FA4767C2C2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79575AE-82E8-4369-A894-F824CC7886C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79575AE-82E8-4369-A894-F824CC7886C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79575AE-82E8-4369-A894-F824CC7886C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79575AE-82E8-4369-A894-F824CC7886C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347BE0F1-2298-4C17-9F8D-6A9EC3DFF8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347BE0F1-2298-4C17-9F8D-6A9EC3DFF8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347BE0F1-2298-4C17-9F8D-6A9EC3DFF8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347BE0F1-2298-4C17-9F8D-6A9EC3DFF8DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
